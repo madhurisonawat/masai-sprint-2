@@ -1,0 +1,138 @@
+
+<html>
+    <head>
+        
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+
+    
+
+    </head>
+    <body>
+        
+
+        <div class = "HOTEL">
+            RESTURANT SITARA
+        </div>
+     <div id="list"> 
+     
+   </div>
+      
+      
+        <div class = "menu item">
+            <p><b>Menu<b></p>
+            <table>
+                <tr>
+                    <td>Dosa</td>
+                    <td>Rs.80/-</td>
+                </tr>
+                <tr>
+                    <td>Jalebi</td>
+                    <td>Rs.35/-</td>
+                </tr>
+                <tr>
+                    <td>Samosa</td>
+                    <td>Rs.40/-</td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>Rs.45/-</td>
+                </tr>
+               <tr>
+                    <td>Pastry</td>
+                    <td>Rs.60/-</td>
+                </tr>
+            </table>
+        </div>
+              
+        
+        
+        <div id = "bill">
+          <p><b>Select the items</b></p>
+            
+            <form action="" method="get" class="bill">
+                <div class = "box1">
+                    <input type="checkbox" id="Dosa" name="Dosa">
+                    <label for="Dosa">Dosa</label>
+                    <input type="text" id="Dosa_Quant" size="7" placeholder="Quantity">
+                  <img src="resources/dosa.jpg"/>
+                </div>
+                <div class = "box2">
+                    <input type="checkbox" id="jalebi" name="jalebi">
+                    <label for="jalebi">Jalebi</label>
+                    <input type="text" id="jalebi_Quant" size="7" placeholder="Quantity">
+                  <img src="resources/jalebi.jpg"/>
+                </div>
+                <div class = "box3">
+                    <input type="checkbox" id="samosa" name="samosa">
+                    <label for="samosa">Samosa</label>
+                    <input type="text" id="samosa_Quant"size="7" placeholder="Quantity">
+                  <img src="resources/samosa.jpg"/>
+                </div>
+                <div class = "box4">
+                    <input type="checkbox" id="pizza" name="pizza">
+                    <label for="pizza">Pizza</label>
+                    <input type="text" id="pizza_Quant" size="7" placeholder="Quantity"><img  src="resources/pizza.jpeg"/>
+                </div>  
+               <div class = "box5">
+                    <input type="checkbox" id="pastry" name="pastry">
+                    <label for="pastry">Pastry</label>
+                    <input type="text" id="pastry_Quant"size="7" placeholder="Quantity">
+                 <img src="resources/pastry1.jpg"/>
+                </div> 
+                
+            </form>
+
+            <p>Percentage of GST</p>
+
+            <form action="" method="get" class="tax">
+                <div class = "gst">
+                    <input type = "checkbox" id="gst1" name="gstname" value="gst1">
+                    <label for="gst1">10%</label>
+                  </div>
+               
+               <div class = "gst">
+                    <input type = "checkbox" id="gst2" name="gstname" value="gst2">
+                    <label for="gst2">15%</label>
+                 </div>
+             
+                <div class = "gst">
+                    <input type = "checkbox" id="gst3" name="gstname" value="gst3">
+                    <label for="gst3">18%</label>
+                </div>
+                 
+                     
+            </form>
+          </br>
+          </br>
+            
+            <p>Gift Voucher</p>
+
+            <form action="" method="get" class="discount">
+                <div class = "disc">
+                   <input type="checkbox" id="dis" name="discount" >
+  <label for="discount"><b>Monday Madness -Rs.50/</b></label></br>
+                </div>
+                <div class = "disc">
+                     <input type="checkbox" id="thur" name="thursday" >
+   <label for="thursday"><b>Thankful Thursday -Rs.60/</b></label>
+                </div>
+          <div class="disc">
+            <input type="checkbox" id="sat" name="saturday" >
+   <label for="saturday"><b>Saturday Special -Rs.100/</b></label>
+          </div>
+            </form>
+
+            <div id = "invoice">
+                <button class = "bttn">Generate Invoice</button>
+            </div>
+        </div>
+
+
+        <h1 id="displaybill">
+               
+        </h1>
+        
+        <script type = "text/javascript" src = "script.js"></script>
+    </body>
+</html>

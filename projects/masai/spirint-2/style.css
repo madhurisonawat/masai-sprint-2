@@ -1,0 +1,31 @@
+.HOTEL{
+    color:white;
+    background:red;
+    height:50px;
+    text-align:center;
+    font-size:30px
+    
+  }
+  p ,h1{
+    color:red
+  }
+  body{
+    background-image:url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      
+  }
+  div >label{
+    font-size:30px
+  }
+  table,tr,td{
+    font-size:20px
+  }
+  .gst{
+    float:left
+  }
+  img{
+    width:100px;
+    height:100px
+  }
+  h2 h4{
+  float:right
+  }
