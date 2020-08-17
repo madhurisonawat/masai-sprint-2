@@ -29,3 +29,10 @@
   h2 h4{
   float:right
   }
+  .box1{
+      float:left
+  }
+  input[type="checkbox"]{
+    width: 15px; /*Desired width*/
+    height: 15px; /*Desired height*/
+  }
